@@ -1,4 +1,4 @@
-# Taller Docker
+# Taller de Docker
 
 ## Descripción
 Este taller está diseñado para proporcionar una introducción práctica a Docker, una plataforma de contenedorización que permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores portátiles.

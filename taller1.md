@@ -67,14 +67,40 @@ Una vez que Docker esté instalado, abre una terminal y ejecuta los siguientes c
       ```
     - Este comando inicia un contenedor en modo interactivo con un terminal bash.
 
-3. **Detener el contenedor**
+3. **Salir de la terminal interactiva**
+    - Para salir de la terminal interactiva del contenedor, escribe `exit` y presiona Enter:
+      ```sh
+      exit
+      ```
+
+4. **Detener el contenedor**
     - Para detener el contenedor en ejecución, primero necesitas conocer el ID o nombre del contenedor. Si usaste el nombre `mi_ubuntu`, puedes detenerlo con:
       ```sh
       docker stop mi_ubuntu
       ```
 
-4. **Eliminar el contenedor**
+5. **Eliminar el contenedor**
     - Para eliminar el contenedor detenido, usa el siguiente comando:
       ```sh
       docker rm mi_ubuntu
       ```
+
+6. **Mostrar todas las imágenes**
+    - Para listar todas las imágenes descargadas en tu máquina local, usa el siguiente comando:
+        ```sh
+        docker images
+        ```
+
+7. **Mostrar contenedores en ejecución**
+    - Para listar todos los contenedores que están actualmente en ejecución, usa el siguiente comando:
+        ```sh
+        docker ps
+        ```
+
+8. **Mostrar todos los contenedores (incluidos los detenidos)**
+    - Para listar todos los contenedores, incluidos los que están detenidos, usa el siguiente comando:
+        ```sh
+        docker ps -a
+        ```
+## Siguiente Taller
+Para continuar con el siguiente taller, visita el siguiente enlace: [Taller 2: Acceso público de containers por puertos](./taller2.md)
